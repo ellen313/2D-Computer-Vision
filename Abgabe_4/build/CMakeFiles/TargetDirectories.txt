@@ -1,0 +1,4 @@
+C:/Users/ellen/OneDrive/Documents/Studium/Semester5/2D CV/Übung/2D-Computer-Vision/Abgabe_4/build/CMakeFiles/sobel_demo.dir
+C:/Users/ellen/OneDrive/Documents/Studium/Semester5/2D CV/Übung/2D-Computer-Vision/Abgabe_4/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ellen/OneDrive/Documents/Studium/Semester5/2D CV/Übung/2D-Computer-Vision/Abgabe_4/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/ellen/OneDrive/Documents/Studium/Semester5/2D CV/Übung/2D-Computer-Vision/Abgabe_4/build/external/pybind11/CMakeFiles/ALL_BUILD.dir

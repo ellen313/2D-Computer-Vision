@@ -4,6 +4,7 @@ from skimage import io
 import matplotlib.pyplot as plt
 import time
 
+
 def rgb_2_gray(img, mode='lut'):
     if mode == 'lut':
         return np.round(img[:,:,0] * 0.2126 + img[:,:,1] * 0.7152 + img[:,:,2] * 0.0722)

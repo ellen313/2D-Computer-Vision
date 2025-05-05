@@ -44,11 +44,8 @@ def grad_magnitude(x_result, y_result):
     magnitude = np.clip(magnitude, 0, 255).astype(np.uint8)
     return magnitude
 
-
 img = io.imread("lena.jpg")
 gray = rgb_2_gray(img)
-
-height, width = gray.shape
 
 # TODO: define filter in x in y direction
 
@@ -80,17 +77,17 @@ magnitude = grad_magnitude(sobelx_grad, sobely_grad)
 
 plt.figure(figsize=(12, 4))
 plt.subplot(1, 3, 1)
-plt.title("∂I/∂x(u,v) (horizontal)")
+plt.title("erste Ableitung in horizontaler Richtung (x)")
 plt.imshow(sobelx_grad, cmap='gray')
 plt.axis('off')
 
 plt.subplot(1, 3, 2)
-plt.title("∂I/∂y(u,v) (vertikal)")
+plt.title("erste Ableitung in vertikaler Richtung (y)")
 plt.imshow(sobely_grad, cmap='gray')
 plt.axis('off')
 
 plt.subplot(1, 3, 3)
-plt.title("Kantenstärke (|∇f|)")
+plt.title("Kantenstärke")
 plt.imshow(magnitude, cmap='gray')
 plt.axis('off')
 
